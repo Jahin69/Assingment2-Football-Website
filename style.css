@@ -1,0 +1,49 @@
+/*---------------------------------- 
+Common Style  
+--------------------*/
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*------------------
+ header style 
+ -----------------*/
+ .header-parent{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     background-color: #2D25A0;
+     padding:6em 4em;
+  
+ }
+ .header-detail{
+     width: 40%;
+ }
+ .header-detail h1{
+    width: 485px;
+    font-size: 64px;
+    line-height: 80px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 37px;
+}
+.button{
+    color: white;
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px 25px;
+    width: 168px;
+    cursor: pointer;
+} 
+.button-icon-margin{
+    margin-left: 10px;
+}
+ .header-image {
+     width: 40%;
+     text-align: center;
+ }
+ .header-image img{
+     width: 100%;
+ }
