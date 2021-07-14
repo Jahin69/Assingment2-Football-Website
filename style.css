@@ -27,7 +27,7 @@ main{
   
  }
  .header-detail{
-     width: 485px;
+     width: 40%;
  }
  .header-detail h1{
     width: 485px;
@@ -51,13 +51,13 @@ main{
 }
 
  .header-image {
-     width: 556.01px;
+     width: 40%;
      height: 438px;
      text-align: center; 
  }
  .header-image img{
-     width: 388px;
-     height: 428px;
+     width: 100%;
+     
      transition: transform 0.2s linear; 
  }
  .header-image img:hover{
@@ -210,7 +210,7 @@ footer{
 /*------------------------------- 
 media queries
 -------------------- */
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:500px) {
 
 /* -----------header section media queries -------------*/
 header{
@@ -241,7 +241,7 @@ header{
     width:100%;
     height:100% ;
 }
-/*----------------------- players section ------------------- */
+/*----------------------- players section queries------------------- */
 .players{
     margin-top:47px;
     width: 100vw;
